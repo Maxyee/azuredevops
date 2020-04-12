@@ -8,7 +8,7 @@ To begin with, I need to connect our virtual machine to our local machine first.
 
 After downloading the RDP file, I need to open that file and then give the credentials for the Azure Virtual machine such as username, password.
 
-However, successfully connected to the Azure virtual machine, I need to open the server manager application.
+However, successfully connected to the Azure virtual machine, I need to open the server manager application from the virtual machine.
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/serverManager.png)
 
