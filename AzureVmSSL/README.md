@@ -31,4 +31,4 @@ On the contrary, For implementing the Http SSL service certificate, the website 
 After clicking the binding option, we will find the port number adding section. Now If anybody needs any port for adding the SSL certificate, he/she can add the port number here. For my working purpose, I will connect my SSL certificate to the port number 443 because I want to use the https service.
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/addPort.png)
-![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/websiteScreen.png)
+
