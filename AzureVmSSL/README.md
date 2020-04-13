@@ -20,4 +20,15 @@ This will open another application window into the virtual machine like this
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/ISSmanager.png)
 
-From the IIS Manager application, I click the virtual machine from the left sidebar and then click the 
+From the IIS Manager application, I click the virtual machine from the left sidebar and then click the sites folder. However, from the site folder, we will see the website folder for this website we will implement the certificate. The below screenshot will help us to find out what I want to say.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/websiteScreen.png)
+
+On the contrary, For implementing the Http SSL service certificate, the website should enable port number 80. Moreover, if we want to implement the SSL certificate for Https service, we should enable the port number 443. Because Http can recognize port 80. On the other hand, Https can recognize the port number  443.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/bindingShot.jpg)
+
+After clicking the binding option, we will find the port number adding section. Now If anybody needs any port for adding the SSL certificate, he/she can add the port number here. For my working purpose, I will connect my SSL certificate to the port number 443 because I want to use the https service.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/addPort.png)
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/websiteScreen.png)
