@@ -32,3 +32,32 @@ After clicking the binding option, we will find the port number adding section. 
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/addPort.png)
 
+Collect cer certificate file form an SSL service company. In this case, My company glostars brought an SSL certificate from a company called Digicert. After buying the certificate, the company sends me a .cer file which I will add to my IIS server manager. However, now I have to navigate the `server certificates` section. The option can be found in this way.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/serverCertificates.jpg)
+
+When I open the server certificate section, I get another interface. From that interface, I click the button called `complete certificate request`. The screenshot is given below-
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/completeRequest.jpg)
+
+this complete certificate request open another interface and from there I can upload the .cer file. The most important thing in this section is that I have to give a friendly name for my certificate. Thus, my point of view, I give the friendly name as `glostarsCr` and then press the ok button. This screenshot will give a clear idea.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/uploadCerFile.png)
+
+Now we can see that my certificate is added to the server certificate section.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/showuploadedCertificate.jpg)
+
+Ninety percent (90%) work done. We are very close to finishing our tasks. Therefore, we should connect this certificate with our https port which is 443. As I mentioned earlier, We had made two port which is into the website `binding` section. Just open that binding section again from the IIS server manager. Finally, select the `https` from that binding and click on the `Edit` button.  
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/siteBindingsEdit.jpg)
+
+When we clicked the edit button we will see that there is another dropdown section below that interface. select the friendly name which we already mentioned when we uploaded the .cer certificate on the server certificates section.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/assignFriendlyaddress.png)
+
+Now all set, last one task left which is so simple. Just restart the IIS manager server and check the Url. We will see that our SSL certificate is attached with our website domain.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/AzureVmSSL/screenshots/restart_LI.jpg)
+
+Thank you. Happy DevOps !!!
