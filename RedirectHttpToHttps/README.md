@@ -10,4 +10,22 @@ To begin with, we need the main element which will do this task. The element nam
 
 In this case, I am installing the `URL Rewrite` to my IIS manager, because I did not find this element in my IIS manager.
 
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/IIsmanager.png)
 
+As a result, I have to download the URL Rewrite module from the below link:
+
+- [Url Rewrite module download](https://www.microsoft.com/en-us/download/confirmation.aspx?id=47337)
+
+Now we downloaded the module from the website. However, let's install it and then apply it to our SSL manager.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/installUrlRewrite.png)
+
+Here we successfully installed the Url Rewrite module to our IIS manager. Let's check it again from the application interface.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/showingUrlrewrite_LI.jpg)
+
+Finally, we can see that there is an option now visible to the IIS manager and the option name is called `Url Rewrite`
+
+Let's start our main task by using this module Url Rewrite. Open the module by clicking it. we will see there is another interface that will open. from here we will set rules for our redirect task.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/urlrewriteinterface.png)
