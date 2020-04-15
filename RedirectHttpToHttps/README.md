@@ -37,3 +37,23 @@ Furthermore, we need to click the Add rules button from the Interface(look at th
 When we pressed the ok button we will see another Interface. From here we will write all the necessary things which will create our rules for redirecting user Http port to Https port.
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/editInboundRule.png)
+
+Let's fill all the blanks and make a rule. We are now doing the main task here. please be careful when you putting the values on those blanks. I will share three screenshots below one by one where all of the value of the blank is already written.
+
+- number one
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/rule1.png)
+
+- number two
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/rule2.png)
+
+- number three
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/rule3.png)
+
+That's all. Just apply the rules and see the magic from the browser.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/apply_LI.jpg)
+
+Thank you!! Happy DevOps !
