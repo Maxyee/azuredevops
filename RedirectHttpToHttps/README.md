@@ -29,3 +29,11 @@ Finally, we can see that there is an option now visible to the IIS manager and t
 Let's start our main task by using this module Url Rewrite. Open the module by clicking it. we will see there is another interface that will open. from here we will set rules for our redirect task.
 
 ![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/urlrewriteinterface.png)
+
+Furthermore, we need to click the Add rules button from the Interface(look at the top photo for help to find out the `Add Rule` button). we can find this add rule button on the top side right corner of the Url Rewrite Interface. After clicking the Add rule button we will see another Interface.Select the Blank rule section and click OK
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/addRule.png)
+
+When we pressed the ok button we will see another Interface. From here we will write all the necessary things which will create our rules for redirecting user Http port to Https port.
+
+![alt text](https://github.com/Maxyee/azuredevops/blob/master/RedirectHttpToHttps/screenshots/editInboundRule.png)
