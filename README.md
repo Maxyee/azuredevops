@@ -4,3 +4,5 @@ All of the Azure devops related task will be described in this repository. Howev
 - [Adding an SSL certificate to Microsoft Azure Cloud Service virtual machine](https://github.com/Maxyee/azuredevops/tree/master/AzureVmSSL)
 
 - [Redirect User From Http protocol to Https Protocol](https://github.com/Maxyee/azuredevops/tree/master/RedirectHttpToHttps)
+
+- [Publishing React Application with Azure Devops]()
